@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="styles.css" text="text/css">
+    <!--meta data-->
+</head>
+<body>
+    <div class="gameCtr"><!--game container-->
+        <h1 class="main-title">Tic Tac Toe</h1><!--main title-->
+
+        <div class="grid"> <!--grid container-->
+            <div cellIndex="0" class="cell"></div>
+            <div cellIndex="1" class="cell"></div>
+            <div cellIndex="2" class="cell"></div>
+            <div cellIndex="3" class="cell"></div>
+            <div cellIndex="4" class="cell"></div>
+            <div cellIndex="5" class="cell"></div>
+            <div cellIndex="6" class="cell"></div>
+            <div cellIndex="7" class="cell"></div>
+            <div cellIndex="8" class="cell"></div>
+            <!--
+                [0][1][2]
+                [3][4][5]
+                [6][7][8]
+            -->
+        </div>
+
+        <h2 id="subTxt" class="subTxt"></h2><!--status text-->
+        <button id="restartBtn" class="restartBtn">Restart</button><!--reset button-->
+
+    </div>
+
+    <script src="app.js"></script><!--JS link-->
+</body>
+</html>
